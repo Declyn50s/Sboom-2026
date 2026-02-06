@@ -1,0 +1,184 @@
+{
+  "products": [
+    {
+      "id": "beef-cheese",
+      "category": "Beef",
+      "name": "Cheese",
+      "description": "Buns briochés, 150gr boeuf, double cheddar, oignons, cornichons, sauce ketchup et moutarde douce.",
+      "included": [
+        "Buns briochés",
+        "150gr boeuf",
+        "Double cheddar",
+        "Oignons",
+        "Cornichons",
+        "Ketchup",
+        "Moutarde douce"
+      ],
+      "addOns": [
+        "extra-boeuf",
+        "extra-bacon",
+        "extra-cheddar",
+        "extra-oignons-crispy",
+        "extra-oignons-caram"
+      ],
+      "priceBurger": 10.9,
+      "priceMenu": 17.9,
+      "badges": ["Classic"],
+      "image": "/media/images/menu-beef.jpg",
+      "video": "/media/videos/clip-1.mp4"
+    },
+    {
+      "id": "beef-big-sboom",
+      "category": "Beef",
+      "name": "Big Sboom",
+      "description": "Buns briochés, 150gr boeuf, double cheddar, salade iceberg, oignons, cornichons, sauce BIG.",
+      "included": [
+        "Buns briochés",
+        "150gr boeuf",
+        "Double cheddar",
+        "Salade iceberg",
+        "Oignons",
+        "Cornichons",
+        "Sauce BIG"
+      ],
+      "addOns": [
+        "extra-boeuf",
+        "extra-bacon",
+        "extra-cheddar",
+        "extra-oignons-crispy",
+        "extra-oignons-caram"
+      ],
+      "priceBurger": 12.9,
+      "priceMenu": 19.9,
+      "badges": ["Best seller"],
+      "image": "/media/images/menu-beef.jpg",
+      "video": "/media/videos/clip-27.mp4"
+    },
+    {
+      "id": "beef-fresh-sboom",
+      "category": "Beef",
+      "name": "Fresh Sboom",
+      "description": "Buns briochés, 150gr boeuf, double cheddar, salade batavia, tomates, oignons caramélisés, sauce SBOOM.",
+      "included": [
+        "Buns briochés",
+        "150gr boeuf",
+        "Double cheddar",
+        "Salade batavia",
+        "Tomates",
+        "Oignons caramélisés",
+        "Sauce SBOOM"
+      ],
+      "addOns": [
+        "extra-boeuf",
+        "extra-bacon",
+        "extra-cheddar",
+        "extra-oignons-crispy",
+        "extra-oignons-caram"
+      ],
+      "priceBurger": 13.9,
+      "priceMenu": 20.9,
+      "badges": ["Fresh"],
+      "image": "/media/images/menu-beef.jpg",
+      "video": "/media/videos/clip-13.mp4"
+    },
+    {
+      "id": "beef-crispy-bacon",
+      "category": "Beef",
+      "name": "Crispy Bacon",
+      "description": "Buns briochés, 150gr boeuf, double cheddar, bacon, oignons crispy, sauce creamy BBQ.",
+      "included": [
+        "Buns briochés",
+        "150gr boeuf",
+        "Double cheddar",
+        "Bacon",
+        "Oignons crispy",
+        "Sauce creamy BBQ"
+      ],
+      "addOns": [
+        "extra-boeuf",
+        "extra-bacon",
+        "extra-cheddar",
+        "extra-oignons-crispy",
+        "extra-oignons-caram"
+      ],
+      "priceBurger": 14.9,
+      "priceMenu": 21.9,
+      "badges": ["Crispy"],
+      "image": "/media/images/menu-beef.jpg",
+      "video": "/media/videos/clip-3.mp4"
+    },
+    {
+      "id": "chicken-crunchy-sboom",
+      "category": "Chicken & Vege",
+      "name": "Crunchy Sboom",
+      "description": "Buns briochés, poulet crunchy, cheddar, salade iceberg, sauce BIG.",
+      "included": [
+        "Buns briochés",
+        "Poulet crunchy",
+        "Cheddar",
+        "Salade iceberg",
+        "Sauce BIG"
+      ],
+      "addOns": [
+        "extra-bacon",
+        "extra-cheddar",
+        "extra-oignons-crispy",
+        "extra-oignons-caram"
+      ],
+      "priceBurger": 11.9,
+      "priceMenu": 18.9,
+      "badges": ["Chicken"],
+      "image": "/media/images/menu-chicken-vege.jpg",
+      "video": "/media/videos/clip-19.mp4"
+    },
+    {
+      "id": "vege-vg-sboom",
+      "category": "Chicken & Vege",
+      "name": "VG Sboom",
+      "description": "Buns briochés, falafels, cheddar, salade batavia, tomates, oignons caramélisés, sauce SBOOM.",
+      "included": [
+        "Buns briochés",
+        "Falafels",
+        "Cheddar",
+        "Salade batavia",
+        "Tomates",
+        "Oignons caramélisés",
+        "Sauce SBOOM"
+      ],
+      "addOns": ["extra-cheddar", "extra-oignons-crispy", "extra-oignons-caram"],
+      "priceBurger": 13.9,
+      "priceMenu": 20.9,
+      "badges": ["Veggie"],
+      "image": "/media/images/menu-chicken-vege.jpg",
+      "video": "/media/videos/clip-6.mp4"
+    }
+  ],
+  "extras": [
+    { "id": "extra-boeuf", "name": "Boeuf", "price": 3.0 },
+    { "id": "extra-bacon", "name": "Bacon", "price": 2.0 },
+    { "id": "extra-cheddar", "name": "Cheddar", "price": 1.0 },
+    { "id": "extra-oignons-crispy", "name": "Oignons crispy", "price": 1.0 },
+    { "id": "extra-oignons-caram", "name": "Oignons caramélisés", "price": 1.5 }
+  ],
+  "drinks": [
+    { "id": "drink-coca-cola", "name": "Coca-Cola", "price": 3.5 },
+    { "id": "drink-coca-cola-zero", "name": "Coca-Cola Zéro", "price": 3.5 },
+    { "id": "drink-the-froid-peche", "name": "Thé Froid Pêche", "price": 3.5 },
+    { "id": "drink-the-froid-citron", "name": "Thé Froid Citron", "price": 3.5 },
+    { "id": "drink-fanta-orange", "name": "Fanta Orange", "price": 3.5 },
+    { "id": "drink-sprite", "name": "Sprite", "price": 3.5 },
+    { "id": "drink-eau-plate", "name": "Eau Plate", "price": 3.5 },
+    { "id": "drink-eau-gazeuse", "name": "Eau Gazeuse", "price": 3.5 }
+  ],
+  "sides": [
+    { "id": "side-frites", "name": "Frites maison", "price": 5.0 },
+    { "id": "side-tenders", "name": "Tenders (pièce)", "price": 2.5 },
+
+    { "id": "side-sauce-sboom", "name": "Sauce maison — SBOOM (Cocktail spicy)", "price": 1.0 },
+    { "id": "side-sauce-creamy-bbq", "name": "Sauce maison — Creamy BBQ", "price": 1.0 },
+    { "id": "side-sauce-curry", "name": "Sauce maison — Curry", "price": 1.0 }
+  ],
+  "desserts": [
+    { "id": "dessert-jour", "name": "Dessert du jour", "price": 6.0 }
+  ]
+}

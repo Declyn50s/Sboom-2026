@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, Segoe UI, Inter, Arial, sans-serif;
+  color: #0C0C0C;
+}
+
+/* Gentle grain for the SBOOM vibe */
+.bg-grain {
+  background-image:
+    radial-gradient(rgba(12,12,12,0.05) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* "Wavy card" effect (simple + fast) */
+.wavy {
+  border-radius: 28px;
+  position: relative;
+  overflow: hidden;
+}
+.wavy:before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(251,186,22,0.25) 0 40%, transparent 41%),
+    radial-gradient(circle at 90% 30%, rgba(245,100,22,0.18) 0 38%, transparent 39%),
+    radial-gradient(circle at 20% 90%, rgba(251,186,22,0.20) 0 36%, transparent 37%);
+  pointer-events: none;
+}
