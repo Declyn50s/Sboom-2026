@@ -3,6 +3,7 @@ import WavyCard from "../../components/WavyCard";
 import Button from "../../components/Button";
 import { loadDb } from "../../lib/storage";
 import ProductCard from "../../components/ProductCard";
+import { asset } from "../../lib/asset";
 
 const UBER_EATS_URL =
   "https://www.ubereats.com/ch/store/sboom-smash-burger/JmeMYJA7WhCDlrCpSujPqg?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas";
@@ -17,7 +18,7 @@ export default function Home() {
   const db = loadDb();
   const best = db.products.filter((p) => p.badges?.includes("Best seller")).slice(0, 3);
 
-  const heroBestImageSrc = "/media/images/Sboom-burgers.jpeg"; // ✅ public/media/images/Sboom-burgers.jpeg
+  const heroBestImageSrc = asset("/media/images/Sboom-burgers.jpeg"); // ✅ public/media/images/Sboom-burgers.jpeg
   const bestRest = best.slice(1);
 
   return (
@@ -119,7 +120,7 @@ export default function Home() {
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           <div className="rounded-blob overflow-hidden border border-black/10 shadow-punch bg-black">
             <video
-              src="/media/videos/clip-12.mp4"
+              src={asset("/media/videos/clip-12.mp4")}
               className="h-[240px] w-full object-cover opacity-90"
               muted
               loop

@@ -4,6 +4,7 @@ import WavyCard from "../../components/WavyCard";
 import Button from "../../components/Button";
 import { loadDb } from "../../lib/storage";
 import { type CartExtra } from "../../lib/cart";
+import { asset } from "../../lib/asset";
 
 function moneyCHF(v: number) {
   return `CHF ${v.toFixed(2)}`;
@@ -66,7 +67,7 @@ export default function Product() {
 
           <div className="w-full max-w-md rounded-blob overflow-hidden border border-black/10 shadow-punch bg-black">
             <video
-              src={p.video || "/media/videos/clip-1.mp4"}
+              src={asset(p.video || "/media/videos/clip-1.mp4")}
               className="h-[260px] w-full object-cover opacity-95"
               controls
               muted

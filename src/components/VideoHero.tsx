@@ -1,7 +1,8 @@
 import Button from "./Button";
+import { asset } from "../lib/asset";
 
 export default function VideoHero() {
-  const src = "/media/videos/clip-20.mp4";
+  const src = asset("/media/videos/clip-20.mp4");
   return (
     <div className="relative overflow-hidden rounded-blob border border-black/10 shadow-punch bg-sboom-black">
       <video

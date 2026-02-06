@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import WavyCard from "../../components/WavyCard";
 import Button from "../../components/Button";
 import { INSTAGRAM_URL } from "../../lib/links";
+import { asset } from "../../lib/asset";
 
 type Slot = { start: string; end: string }; // "HH:MM"
 type DayKey = 0 | 1 | 2 | 3 | 4 | 5 | 6; // 0=Dim ... 6=Sam
@@ -300,7 +301,7 @@ export default function Restaurant() {
 
             <div className="rounded-blob overflow-hidden border border-black/10 shadow-punch bg-black">
               <video
-                src="/media/videos/clip-12.mp4"
+                src={asset("/media/videos/clip-12.mp4")}
                 className="h-[240px] w-full object-cover opacity-95 md:h-[300px]"
                 controls
                 muted

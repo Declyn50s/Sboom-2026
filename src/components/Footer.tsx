@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { asset } from "../lib/asset";
 
 const INSTAGRAM_URL = "https://www.instagram.com/sboom_burger/";
 
@@ -33,7 +34,7 @@ export default function Footer() {
           {/* Center logo */}
           <div className="flex items-center justify-center md:w-1/3">
             <img
-              src="/media/images/Sboom-mascot-logo.jpg"
+              src={asset("/media/images/Sboom-mascot-logo.jpg")}
               alt="SBOOM mascot"
               className="h-24 w-auto"
               loading="lazy"

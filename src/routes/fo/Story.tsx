@@ -1,5 +1,6 @@
 import WavyCard from "../../components/WavyCard";
 import Button from "../../components/Button";
+import { asset } from "../../lib/asset";
 
 const UBER_EATS_URL =
   "https://www.ubereats.com/ch/store/sboom-smash-burger/JmeMYJA7WhCDlrCpSujPqg?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas";
@@ -15,12 +16,12 @@ const INSTAGRAM_URL = "https://www.instagram.com/sboom_burger/";
  * - Vidéos: /media/videos/clip-1.mp4, /media/videos/clip-12.mp4...
  */
 const ASSETS = {
-  heroVideo: "/media/videos/clip-14.mp4",
-  heroImage: "/media/images/Sboom-burgers.jpeg", // fallback si vidéo absente
-  imgSmash: "/media/images/Sboom-burgers.jpeg",
-  imgTeam: "/media/images/carton.jpg",
-  imgLocal: "/media/images/menu-beef.jpg",
-  videoSmash: "/media/videos/clip-33.mp4",
+  heroVideo: asset("/media/videos/clip-14.mp4"),
+  heroImage: asset("/media/images/Sboom-burgers.jpeg"), // fallback si vidéo absente
+  imgSmash: asset("/media/images/Sboom-burgers.jpeg"),
+  imgTeam: asset("/media/images/carton.jpg"),
+  imgLocal: asset("/media/images/menu-beef.jpg"),
+  videoSmash: asset("/media/videos/clip-33.mp4"),
 };
 
 function Pill({ children }: { children: React.ReactNode }) {
